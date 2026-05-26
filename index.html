@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mansi's Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logo">
+                <a href="#home">Thanvi<b>Mansi</b></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#journey">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><button onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">Contact</button></li>
+                <li><button class="theme-toggle"><i class="fa-regular fa-moon"></i></button></li>
+            </ul>
+        </nav>
+        <button class="hamburger-btn">
+            <i class="fa-solid fa-bars"></i></button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="blobs">
+            </div>
+            <div class="hero-blob">
+                <img src="blob-hero.svg" class="blob-hero-light" alt="Blob Hero light">
+                <img src="blob-hero2.svg" class="blob-hero-dark" alt="Blob Hero dark">
+            </div>
+            <div class="hero-container">
+                <p>Hello!</p><h1>I'm <span class="highlight">Mansi Thanvi</span></h1>
+                <p class="subtitle">an aspiring UI/UX designer and web developer.</p>
+                <a href="resume.pdf" download="resume_Mansi_Thanvi.pdf"><button><i class="fa-solid fa-circle-down"></i> Resume</button></a>
+            </div>
+            <img src="hero-image.png" alt="Hero Image">
+            <div class="hero-blob2">
+                <img src="blob-hero3.svg" class="blob-hero-light" alt="Blob Hero light">
+                <img src="blob-hero4.svg" class="blob-hero-dark" alt="Blob Hero dark">
+            </div>
+        </section>
+
+        <div class="blob-box-about"></div>
+
+        <section class="about" id="about">
+            <div class="left-container">
+                <h2><span class="highlight">About</span> Me</h2>
+                <p>I am a passionate aspiring UI/UX designer and web developer who loves to bring creative ideas, stories and solutions that speak personality and stories on it's own. I believe every project has its own unique story to tell.</p>
+                <br>
+                <p>
+                    I am also a quick learner and a team player who enjoys collaborating with others to achieve common goals.
+                </p>
+            </div>
+            <div class="blob-box-skills"></div>
+            <div class="blob-box-skills2"></div>
+            <div class="blob-box-skills3"></div>
+            <div class="right-container">
+            <h3>Tech Skills</h3>
+            <ul class="skills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>UI/UX Design</li>
+            </ul>
+            <h3>Soft Skills</h3>
+            <ul class="skills">
+                <li>Communication</li>
+                <li>Problem Solving</li>
+                <li>Teamwork</li>
+                <li>Adaptability</li>
+                <li>Time Management</li>
+                <li>Creativity</li>
+                <li>Leadership</li>
+            </ul>
+            </div>
+        </section>
+
+        <section class="journey" id="journey">
+            <div class="blob-box-journey"></div>
+            <div class="right-container">
+                <h2 class="title">My <span class="highlight">Journey</span></h2>
+                <h2 class="journey-bg-shadow">My Journey</h2>
+            </div>
+            <div class="left-container">
+                <h2>Education</h2>
+                <div class="contents" id="education">
+                <div class="box">
+                    <h4>2023-2026</h4>
+                    <h3>Bachelor of Science in Information Technology</h3>
+                    <p>Thakur College of Science and Commerce</p>
+                </div>
+                <div class="box">
+                    <h4>2022-2023</h4>
+                    <h3>Scored 80.50% HSC Examination</h3>
+                    <p>Thakur College of Science and Commerce</p>
+                </div>
+                <div class="box">
+                    <h4>2020-2021</h4>
+                    <h3>Scored 76.80% SSC Examination</h3>
+                    <p>Queen Mary's High School</p>
+                </div>
+            </div>
+            </div>
+
+        </section>
+
+        <section class="projects" id="projects">
+            <h2><span>Projects</span></h2>
+            <div class="project-card">
+                <img src="watermarker.png" alt="Project logo">
+                <div class="card-text">
+                    <h3>TY Project: Digital Watermarking Tool</h3>
+                    <p>A digital watermarking tool developed to embed and extract watermarks from images. It provides a simple and efficient solution for protecting digital content with visible and invisible watermarks.<br><br> know more click on the link below.</p>
+                    <div class="socials">
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/posts/mansi-thanvi-2a7182282_webdevelopment-finalyearproject-techprojects-ugcPost-7450814820351868928-tRNE/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAES5gx8BQ2qxvdHKRICykPpXahP73CaypGM"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="blob-contact"></div>
+            <h2><span>Contact</span> Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h4>Contact Details</h4>
+                <p><i class="fa-solid fa-phone"></i> (+91) 9967160073</p>
+                <p><i class="fa-solid fa-envelope"></i> mansithanvi2@gmail.com</p>
+                <div class="contact-socials">
+                    <a href="https://github.com/Mansi-Thanvi"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mansi-thanvi-2a7182282"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="blob-contact2"></div>
+            <div class="blob-contact3"></div>
+            <div class="contact-form">
+                <h3>Contact Form</h3>
+                <form action="https://formspree.io/f/mdajwpae" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your Full Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required placeholder="Your reason to contact"></textarea>
+                    </div>
+
+                    <button type="submit">Send</button>
+                </form>
+
+            </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Mansi's Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
