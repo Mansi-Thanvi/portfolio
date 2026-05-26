@@ -113,6 +113,8 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 100;
 }
 
 .nav{
@@ -148,6 +150,8 @@ header{
     text-align: left;
     gap: 5px;
     border: solid 3px var(--text-muted);
+
+    z-index: 999;
 }
 .nav-links.open{
     display:flex;
